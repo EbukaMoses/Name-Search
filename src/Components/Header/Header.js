@@ -13,7 +13,7 @@ const Header = ({ headTitle, headerExpanded }) => {
         alt="logo"
       />
       <h1
-        className={`head-test ${
+        className={`head-text ${
           headerExpanded ? "head-text-expanded" : "head-text-contracted"
         }`}
       >
